@@ -32,7 +32,6 @@
 body {
   font: var(--text-md);
   color: var(--gray-100);
-  background-color: var(--gray-600);
 }
 
 a {
@@ -48,4 +47,15 @@ h1, h2, h3 {
   font: inherit;
 }
 
+/* utility class */
+.grid {
+  display: grid;
+}
 
+.grid-flow-column {
+  grid-auto-flow: column;
+}
+
+.grid-flow-row {
+  grid-auto-flow: row;
+}
