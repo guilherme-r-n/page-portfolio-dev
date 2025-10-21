@@ -32,6 +32,7 @@
 body {
   font: var(--text-md);
   color: var(--gray-100);
+  background-color: #0D0E11;
 }
 
 a {
@@ -45,17 +46,4 @@ a:hover {
 
 h1, h2, h3 {
   font: inherit;
-}
-
-/* utility class */
-.grid {
-  display: grid;
-}
-
-.grid-flow-column {
-  grid-auto-flow: column;
-}
-
-.grid-flow-row {
-  grid-auto-flow: row;
 }
