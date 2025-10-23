@@ -49,5 +49,11 @@ h1, h2, h3 {
 }
 
 .container {
-  width: 1366px;
+  width: 100%;
+}
+
+/* utility classes */
+
+.flex {
+  display: flex;
 }
