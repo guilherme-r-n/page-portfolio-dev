@@ -1,6 +1,6 @@
 #presentation {
+  padding: 120px 163px 183px 163px;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   
   width: 100%;
@@ -8,9 +8,67 @@
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
   background-repeat: no-repeat;
+
+  figure {
+    padding-top: 94px;
+  }
+}
+
+h1 {
+  font: var(--title-lg);
+  color: var(--gray-100);
+}
+
+h3 {
+  font: var(--subtitle);  
+}
+
+p {
+  font: var(--text-sm); 
 }
 
 #intro {
   width: 680px;
   height: 327px;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    padding-top: 8px;
+  }
+
+  h3 {
+    color: var(--gray-200);
+    
+      span {
+        color: var(--red);
+      }
+  }
+
+  p {
+    padding-block: 20px 80px;
+    color: var(--gray-300);
+  }
+}
+
+#technology {
+  align-items: center;
+  gap: 16px;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: var(--gray-400);
+    border-radius: 25px 25px 25px 25px;
+
+    font: var(--text-md);
+    color: var(--gray-200);
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
 }
