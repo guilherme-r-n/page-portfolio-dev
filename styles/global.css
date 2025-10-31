@@ -26,13 +26,12 @@
   --subtitle: 400 20px/120% var(--font-family-inconsolata);
   --text-md: 400 16px/140% var(--font-family-mavenpro);
   --text-sm: 400 14px/140% var(--font-family-mavenpro);
-
 }
 
 body {
   font: var(--text-md);
   color: var(--gray-100);
-  background-color: #0D0E11;
+  background-color: var(--gray-600);
 }
 
 a {
@@ -53,7 +52,6 @@ h1, h2, h3 {
 }
 
 /* utility classes */
-
 .flex {
   display: flex;
 }
