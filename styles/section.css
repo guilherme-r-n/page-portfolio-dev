@@ -303,7 +303,7 @@ p {
     }
   }
 }
-/* 
+
 #contact {
   flex-direction: column;
   align-items: center;
@@ -391,4 +391,4 @@ p {
       filter: invert(48%) sepia(80%) saturate(499%) hue-rotate(173deg) brightness(92%) contrast(96%);
     }
   }
-} */
+}
